@@ -1,0 +1,49 @@
+body {
+    background-color: pink;
+    font-family: VT323, Arial;
+    color: white;
+}
+
+.punten {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+#naam {
+    color: red;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.Drake {
+    padding: 5px;
+    color: blue;
+    font-size: 1em;
+}
+
+#status {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+}
+
+
+#status1 {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+}
+
+div {
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    }
+
+.spelbord{
+
+margin: auto;}
