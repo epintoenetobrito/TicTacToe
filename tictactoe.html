@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elma Pinto e Neto Brito - klas Jade </title>
+    <link rel="stylesheet" type="text/css" href="css/eindopdracht.css">
+     <link href='https://fonts.googleapis.com/css?family=VT323&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+   <!--De header met de naam van de spelers en scores-->
+<header>
+        <p id="status1">Tic Tac Hotline-Toe</p>
+
+    <table class="punten">
+        <tr>
+            <td><p id="naam"></p></td>
+                <td id="score1">0</td>
+        </tr>
+        <tr>
+            <td class="Drake">Drake</td>
+            <td id="score2">0</td>
+        </tr>
+
+    <p id="status">
+    </p>
+    </table>
+    </header>
+
+        <nav class="mobile-nav ">
+                <ul class="slimmenu font2">
+                  <li>
+                      <a href="index.html">home</a>
+                  </li>
+                  <li>
+                      <a href="about.html">about</a>
+                  </li>
+                  <li><a href="contact.html">say hello</a></li>
+                </ul>
+    </nav>
+
+    <!--Het spelbord-->
+
+<main>
+    <table class="spelbord">
+        <tr>
+            <td class="rij" id="a1"><img src="img/leeg.png" alt="Leeg"></td>
+            <td class="rij" id="a2"><img src="img/leeg.png" alt="Leeg"></td>
+            <td class="rij" id="a3"><img src="img/leeg.png" alt="Leeg"></td>
+        </tr>
+        <tr>
+            <td class="rij" id="b1"><img src="img/leeg.png" alt="Leeg"></td>
+            <td class="rij" id="b2"><img src="img/leeg.png" alt="Leeg"></td>
+            <td class="rij" id="b3"><img src="img/leeg.png" alt="Leeg"></td>
+        </tr>
+        <tr>
+            <td class="rij" id="c1"><img src="img/leeg.png" alt="Leeg"></td>
+            <td class="rij" id="c2"><img src="img/leeg.png" alt="Leeg"></td>
+            <td class="rij" id="c3"><img src="img/leeg.png" alt="Leeg"></td>
+        </tr>
+    </table>
+</main>
+
+<footer>
+<!--Nieuw Spel knop-->
+<div><button class="newspel" >New Game</button></div>
+  <!--Audio in het spel-->
+  <div id="audio">
+        <audio autoplay='no' controls=''>
+            <source src="audio/hotlinebling.mp3" />
+        </audio>
+   </div>
+</footer>
+
+    <script type="text/javascript" src="scripts/eindopdracht.js"></script>
+
+</body>
+</html>
